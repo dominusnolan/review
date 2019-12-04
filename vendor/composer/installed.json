@@ -1,0 +1,96 @@
+[
+    {
+        "name": "composepress/core",
+        "version": "0.7.4.0",
+        "version_normalized": "0.7.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://gitlab.com/ComposePress/core.git",
+            "reference": "2109ed4d921af544f8fc5e74b755a268e6d75ba5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://gitlab.com/api/v4/projects/ComposePress%2Fcore/repository/archive.zip?sha=2109ed4d921af544f8fc5e74b755a268e6d75ba5",
+            "reference": "2109ed4d921af544f8fc5e74b755a268e6d75ba5",
+            "shasum": ""
+        },
+        "require": {
+            "composepress/dice": "^0.4.0"
+        },
+        "require-dev": {
+            "codeception/codeception": "^2.4",
+            "lucatume/wp-browser": "~2.2.0"
+        },
+        "time": "2019-02-02T02:57:47+00:00",
+        "type": "library",
+        "extra": {
+            "composepress": []
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ComposePress\\Core\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Derrick Hammer",
+                "email": "derrick@derrickhammer.com"
+            }
+        ],
+        "description": "A simple PSR-4 and composer ready plugin framework for the modern wordpress age"
+    },
+    {
+        "name": "composepress/dice",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://gitlab.com/ComposePress/Dice.git",
+            "reference": "84058c09ca7659d5a6d309971db5611cb57bac14"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://gitlab.com/api/v4/projects/ComposePress%2FDice/repository/archive.zip?sha=84058c09ca7659d5a6d309971db5611cb57bac14",
+            "reference": "84058c09ca7659d5a6d309971db5611cb57bac14",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2018-08-12T21:10:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ComposePress\\Dice\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Tom Butler",
+                "email": "tom@r.je"
+            },
+            {
+                "name": "Derrick Hammer",
+                "email": "derrick@derrickhammer.com"
+            }
+        ],
+        "description": "A minimalist Dependency injection container (DIC) for PHP. Please note: This branch is only compatible with PHP5.6. 5.5, 5.4 and 5.3 compatible version is available as a separate branch on github. ",
+        "homepage": "http://r.je/dice.html",
+        "keywords": [
+            "dependency injection",
+            "dependency injection container",
+            "di",
+            "ioc"
+        ]
+    }
+]

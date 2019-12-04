@@ -1,0 +1,34 @@
+{
+  "name": "composepress/core",
+  "type": "library",
+  "description": "A simple PSR-4 and composer ready plugin framework for the modern wordpress age",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Derrick Hammer",
+      "email": "derrick@derrickhammer.com"
+    }
+  ],
+  "require": {
+    "composepress/dice": "^0.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ComposePress\\Core\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ComposePress\\Core\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "lucatume/wp-browser": "~2.2.0",
+    "codeception/codeception": "^2.4"
+  },
+  "extra": {
+    "composepress": {
+
+    }
+  }
+}

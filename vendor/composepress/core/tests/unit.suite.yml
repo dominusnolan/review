@@ -1,0 +1,28 @@
+# Codeception Test Suite Configuration
+#
+# Suite for unit or integration tests.
+
+actor: UnitTester
+modules:
+  enabled:
+  - Asserts
+  - \Helper\Unit
+  - WPDb
+  - WPLoader
+  config:
+    WPLoader:
+      wpRootFolder: "/tmp/wordpress"
+      dbName: "wordpress"
+      dbHost: "mysql"
+      dbUser: "root"
+      dbPassword: "root"
+      isolatedInstall: false
+
+    WPDb:
+      dsn: 'mysql:host=mysql;dbname=wordpress'
+      user: 'root'
+      password: 'root'
+      url: 'http://example.org'
+      urlReplacement: false
+      cleanup: false
+      waitlock: 0

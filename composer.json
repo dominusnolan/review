@@ -1,0 +1,12 @@
+{
+    "name": "dominusit/financer_review",
+    "type": "wordpress-plugin",
+    "require": {
+        "composepress/core": "0.7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Financer_Review\\": "src\\"
+        }
+    }
+}

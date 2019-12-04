@@ -1,0 +1,21 @@
+{
+  "classes": [
+    "\\ComposePress\\Core\\Abstracts\\BaseObject",
+    "\\ComposePress\\Core\\Abstracts\\Component",
+    "\\ComposePress\\Core\\Abstracts\\Plugin",
+    "\\ComposePress\\Core\\Abstracts\\Manager"
+  ],
+  "files":[
+    "src/Abstracts/*.php",
+    "src/Traits/*.php"
+  ],
+  "traits": [
+    "\\ComposePress\\Core\\Traits\\BaseObject",
+    "\\ComposePress\\Core\\Traits\\Component"
+  ],
+  "process": {
+    "classes": true,
+    "traits": true,
+    "interfaces": false
+  }
+}
